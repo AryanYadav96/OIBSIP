@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio - Web Developer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .hero {
+            background-color: #00e1ff;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            font-size: 22px;
+        }
+
+        .about {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .about h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+            color: #006eff;
+        }
+
+        .skills {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .skills h2 {
+            font-size: 40px;
+            margin-bottom: 50px;
+            color: #006eff;
+        }
+
+        .skill-icons {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .skill-icons img {
+            width: 100px;
+        }
+
+        .projects {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .projects h2 {
+            font-size: 40px;
+            margin-bottom: 50px;
+            color: #006eff;
+        }
+
+        .project-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: #f0f0f0;
+            width: 350px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 20px;
+        }
+
+        .project-info h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+
+        .contact h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <img src="Aryan.jpeg" alt="My Photo">
+        <h1>Hi, I'm Aryan Yadav 👋</h1>
+        <p>Beginner Web Developer | Learning HTML, CSS & JavaScript</p>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p style="max-width: 800px; margin: 0 auto; font-size: 18px; line-height: 1.6;">
+            I'm a passionate beginner web developer currently doing an internship. 
+            I love building simple and beautiful websites from scratch. 
+            I have made a cool gadget shop landing page and a working To-Do List app! 
+            I'm excited to learn more and create awesome projects 😊
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-icons">
+            <img src="https://thumbs.dreamstime.com/z/html-css-js-icon-set-web-development-logo-javascript-programming-symbol-171669655.jpg" alt="HTML CSS JS">
+            <img src="https://www.shutterstock.com/image-vector/vector-collection-web-development-shield-600nw-1697928886.jpg" alt="Web Development">
+            <img src="https://as1.ftcdn.net/jpg/03/35/86/14/1000_F_335861431_bhd8KZGfySl8GazE2IJgpOMjIF7NqeoH.jpg" alt="HTML5 CSS3 JS">
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="https://www.seedprod.com/wp-content/uploads/2021/01/preview-landing-page-in-mobile-min.jpg" alt="TechZone Landing Page">
+                <div class="project-info">
+                    <h3>TechZone - Gadget Shop Landing Page</h3>
+                    <p>A beautiful landing page for an online gadget store made with HTML and CSS.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://static-cse.canva.com/blob/1100282/create_to-do-list_lead-2x.jpg" alt="To-Do List App">
+                <div class="project-info">
+                    <h3>To-Do List App</h3>
+                    <p>A simple interactive app to add, check, and delete tasks using JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: aryan.yadav@indiraicem.ac.in</p>
+        <p>Phone: +91 1234567890</p>
+        <p>GitHub: Aryan Yadav889</p>
+    </section>
+
+</body>
+</html>
